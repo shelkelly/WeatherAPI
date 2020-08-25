@@ -1,2 +1,57 @@
 
+    h1 {
 
+    }
+    
+    p {
+    
+    }
+    
+    .city-btn {
+        background: rgb(63, 63, 206);
+        border: none;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        width: 150px;
+        margin: 10px;
+    }
+    
+    #header {
+        height: 100px;
+        width: 100%;
+        background: gray;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        padding: 10px;
+    }
+    
+    #citysearch {
+        background: gray;
+        color: white;
+        height: 850px;
+        font-size: 14px;
+    }
+    
+    .cname {
+        background: lightskyblue;
+        color: black;
+        margin: 5px;
+    }
+    
+    #add-city {
+        background: rgb(63, 63, 206);
+        border: none;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        display: inline-block;
+        margin: 5px;
+    }
+    
+    #cityinfo {
+        float: left;
+    }

@@ -76,12 +76,12 @@ $(document).ready(function () {
             }
         })
     }
-
-    function uvIndex() {
-        var latitude = 
-        var longitude = 
-        var uvUrl = "http://api.openweathermap.org/data/2.5/uvi?appid=4ac35a4795065ed1d0f8c9d2fdec58cd" + "&lat=" + {lat} + "&lon=" + {lon};
-    }
+    
+    //function uvIndex() {
+      //  var latitude = 
+        //var longitude = 
+        //var uvUrl = "http://api.openweathermap.org/data/2.5/uvi?appid=4ac35a4795065ed1d0f8c9d2fdec58cd" + "&lat=" + {lat} + "&lon=" + {lon};
+    //}
 
 // This function renders the buttons to be displayed after search
 function renderbuttons() {
