@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\shelb\OneDrive\Desktop\sandbox\uncc-chacc-fsf-pt-07-2020-u-c\06-Server-Side-APIs\02-Homework\style.css">
+    
+
+    <title>Weather Forecast</title>
+</head>
+
+<body>
+    <div lass="container-fluid">
+        <div class="row">
+            <div class="col-xs-12" id="header">
+            <h1>5 Day Weather Forecast</h1>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-xs-2' id="citysearch">
+                <form>
+                    <label for="cname">Search for a City:</label><br>
+                    <input type="text" class="cname" name="cname"><br>
+                    <input id="add-city" type="submit" value="Submit"><br>
+                </form>
+                <div id='recentsearch'>
+
+                </div>
+            </div>
+
+            <div class='row'>
+                <div class='col-xs-8' id="cityInfo">
+                    <div id="location"></div>
+                    <div id="temperature"></div>
+                    <div id="humidity"></div>
+                    <div id="windspeed"></div>
+                    <div id="uvindex"></div>
+                </div>
+                <div class='col-xs-8' id="forecast">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
