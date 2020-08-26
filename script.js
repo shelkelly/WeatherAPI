@@ -11,6 +11,10 @@ $(document).ready(function () {
 
     // This function displays the city information
     function displayCity() {
+        $("#location").empty();
+        $("#humidity").empty();
+        $("#windspeed").empty();
+        $("#temperature").empty();
 
         var city = $(this).attr("data-name");
         var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&apikey=4ac35a4795065ed1d0f8c9d2fdec58cd";
@@ -38,8 +42,8 @@ $(document).ready(function () {
         });
     };
 
-    // This function displays the 5 day weather forecast
-    async function displayForecast() {
+    function displayForecast() {
+        $("#forecast").empty();
         var city = $(this).attr("data-name")
         var forecastURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&apikey=4ac35a4795065ed1d0f8c9d2fdec58cd";
         $.ajax({
